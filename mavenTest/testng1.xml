@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="in.zipgo.mavenTest.App"/>
+      <class name="in.zipgo.mavenTest.SystemProperty"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,9 +1,14 @@
 package in.zipgo.mavenTest;
 
+import org.testng.annotations.Test;
+
 public class SystemProperty {
 	
 	public static void main(String[] args) 
     { 
+		
+		
+		
         // Printing Name of the system property 
         System.out.println("user.dir: "+System.getProperty("user.dir")); // current directory 
         System.out.println("user.dir: "+System.getProperty("user.home")); // home directory 
@@ -22,5 +27,12 @@ public class SystemProperty {
         System.out.println("name: "+System.getProperty("name" )); 
         // Resulting in Null as no property is present 
     } 
+	 @Test
+	    public static void xyz1() {
+	    	
+	    	System.out.println("SystemProperty Class");
+	    	
+	  
+	    }
 
 }

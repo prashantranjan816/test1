@@ -19,8 +19,9 @@ public class App
     @Test
     public static void xyz() {
     	
+    	System.out.println("App Class");
     	
-    	System.out.println("TestNG Test");
+    /*	System.out.println("TestNG Test");
     	String home = System.getProperty("user.home"); //it will take current user location
 		File f = new File(home + File.separator + "Downloads" + File.separator + "Testing"); //file.separator will seprate the file
 		System.out.println(f);
@@ -36,7 +37,7 @@ public class App
 	      System.out.println(System.getProperty("os.name"));
 
 	      // prints Java Runtime Version
-	      System.out.println(System.getProperty("java.runtime.version" ));
+	      System.out.println(System.getProperty("java.runtime.version" ));*/
 		
     }
 }
